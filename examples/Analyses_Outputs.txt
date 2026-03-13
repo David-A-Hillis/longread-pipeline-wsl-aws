@@ -1,0 +1,126 @@
+### Count by Type
+      8 BND
+   4087 DEL
+     12 DUP
+   5601 INS
+     10 INV
+
+### Rough Size Distribution
+   5759 <100bp
+   3409 100-1kb
+    532 1-10kb
+     10 >=10kb
+
+### Distribution Across Chromosomes
+    797 1
+    690 2
+    472 3
+    535 4
+    461 5
+    572 6
+    658 7
+    370 8
+    427 9
+    508 10
+    382 11
+    452 12
+    381 13
+    229 14
+    235 15
+    328 16
+    342 17
+    274 18
+    329 19
+    393 20
+    255 21
+    247 22
+    309 X
+     47 Y
+      2 HG1815_PATCH
+      1 HG2265_PATCH
+      7 HG2365_PATCH
+      2 HG76_PATCH
+      2 HSCHR14_3_CTG1
+      1 HSCHR15_4_CTG8
+      2 HSCHR15_6_CTG8
+      6 HSCHR16_1_CTG1
+      1 HSCHR6_MHC_QBL_CTG1
+      1 KI270728.1
+
+### VAF and zygosity patterns
+0.0–0.1: 0
+0.1–0.2: 1
+0.2–0.3: 160
+0.3–0.4: 383
+0.4–0.5: 443
+0.5–0.6: 876
+0.6–0.7: 1037
+0.7–0.8: 1122
+0.8–0.9: 1146
+0.9–1.0: 4550
+
+
+
+
+
+
+### Filtered for High Confidence ('INFO/SUPPORT>=10')
+# Count by Type (High Confidence)
+    140 DEL
+     90 INS
+      2 INV
+
+# Rough Size Distribution (High Confidence)
+    172 <100bp
+     47 100-1kb
+     12 1-10kb
+      1 >=10kb
+
+# Distribution Across Chromosomes
+     43 1
+     11 2
+      5 3
+      4 4
+      8 5
+     11 6
+     10 7
+      4 8
+     11 9
+     12 10
+      9 11
+      7 12
+      3 13
+      4 14
+      2 15
+      7 16
+      5 17
+      6 18
+      3 19
+     19 20
+     14 21
+     12 22
+      2 X
+     20 Y
+
+Copilot: “When I looked at all 9,717 SVs, per‑chromosome counts scaled roughly with chromosome length, as expected. But when I restricted to SUPPORT≥10 (232 SVs), the distribution became skewed—chrY and some small autosomes were over‑represented. Given the low coverage, that pattern is best explained by the interaction of an absolute support threshold with uneven coverage and mappability, rather than true biological enrichment. In a higher‑coverage dataset, I’d expect the high‑confidence subset to recover a more length‑proportional pattern.”
+
+
+# VAF and zygosity patterns (High Confidence)
+0.0–0.1: 0
+0.1–0.2: 0
+0.2–0.3: 16
+0.3–0.4: 22
+0.4–0.5: 23
+0.5–0.6: 17
+0.6–0.7: 16
+0.7–0.8: 21
+0.8–0.9: 16
+0.9–1.0: 101
+
+
+
+
+
+
+
+
